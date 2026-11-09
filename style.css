@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZbxFGc51Aors1hrTGiuMOnhouXJOcI9CYYUbE5zN3LA&s=10");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-card {
+    width: 350px;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 15px;
+
+    text-align: center;
+    box-shadow: 0px 5px 20px black;
+}
+
+.title{
+    color: chocolate;
+    font-size: 100px;
+}
+
+.card-title{
+    color: darkgoldenrod;
+    font-size: 50px;
+}
+
+.card-text{
+    color: orange;
+    font-size: 30px;
+
+}
