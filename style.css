@@ -3,10 +3,46 @@
     flex-direction: row;
     align-items: center;
     gap: 15px;
+    flex-wrap: nowrap;
     background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAqzlkGHUQ2LOKy0gwTWhinyMPW8eF0VnvqxYEdxrSAw&s=10) ;
-    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZGoHjsDTb7f3t0r_8wc56LdpFJ8pyoASI-MarOvG1WA&s=10"); */
+    
 }
 .card{
     background-color: plum;
 }
 
+
+.card{
+  width: 900px;
+  flex-shrink: 0;
+
+}
+
+.card-header {
+    font-family: Georgia;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    background-color: lightpink;
+}
+
+
+.main-card {
+    width: 650px;
+    background-color: lavender;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.inner-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.subject-card {
+    background-color: plum;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+}
