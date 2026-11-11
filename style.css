@@ -76,7 +76,7 @@
 
 .task-area button {
     background-color: orchid;
-    color: white;
+    color: aliceblue;
     border: none;
     padding: 5px 10px;
     border-radius: 5px;
@@ -92,4 +92,17 @@
 .task-list li {
     margin-top: 10px;
     overflow-wrap: anywhere;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.task-list li button {
+    flex-shrink: 0;
+    white-space: nowrap;
 }
