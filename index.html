@@ -45,43 +45,125 @@
         <center>
         <div class="main-card">
         <div class="inner-cards">
+    
+
+<div class="inner-cards">
+    <div class="card second-card" style="width: 600px;">
+
+    
+    
     <div class="subject-card">
-            ☕
-            <h4>JAVA</h4>
-            <button style="background-color: mediumvioletred;">click</button>
+        <h4>☕ JAVA</h4>
+
+        <button class="subject-btn" onclick="showTasks(this)">
+            Click
+        </button>
+
+        <div class="task-area" style="display:none;">
+
+            <input type="text" placeholder="Search JAVA..."
+                   oninput="searchTasks(this)">
+
+            <input type="text" placeholder="Enter JAVA topic">
+
+            <button onclick="addTask(this)">Add</button>
+
+            <ul class="task-list">
+                <li>Exception Handling <button onclick="deleteTask(this)">Delete</button></li>
+                <li>Collections <button onclick="deleteTask(this)">Delete</button></li>
+                <li>File Handling <button onclick="deleteTask(this)">Delete</button></li>
+                <li>String Handling <button onclick="deleteTask(this)">Delete</button></li>
+                <li>Multithreading <button onclick="deleteTask(this)">Delete</button></li>
+            </ul>
 
         </div>
+    </div>
 
-        <div class="subject-card">
-            💻
-            <h4>OOP</h4>
-            <button style="background-color: mediumvioletred;">click</button>
+
+   
+    <div class="subject-card">
+        <h4>💻 OOP</h4>
+
+        <button class="subject-btn" onclick="showTasks(this)">Click</button>
+
+        <div class="task-area" style="display:none;">
+
+            <input type="text" placeholder="Search OOP..."
+                   oninput="searchTasks(this)">
+
+            <input type="text" placeholder="Enter OOP topic">
+
+            <button onclick="addTask(this)">Add</button>
+
+            <ul class="task-list">
+                <li>Constructors <button onclick="deleteTask(this)">Delete</button></li>
+                <li>Method Overloading <button onclick="deleteTask(this)">Delete</button></li>
+                <li>Method Overriding <button onclick="deleteTask(this)">Delete</button></li>
+                <li>Interfaces <button onclick="deleteTask(this)">Delete</button></li>
+                <li>Abstract Classes <button onclick="deleteTask(this)">Delete</button></li>
+            </ul>
+
         </div>
+    </div>
 
-        <div class="subject-card">
-            🌐
-            <h4>IT</h4>
-            <button style="background-color: mediumvioletred;">click</button>
+
+    <div class="subject-card">
+        <h4>🌐 IT</h4>
+
+        <button class="subject-btn" onclick="showTasks(this)">Click</button>
+
+        <div class="task-area" style="display:none;">
+
+            <input type="text" placeholder="Search IT..."
+                   oninput="searchTasks(this)">
+
+            <input type="text" placeholder="Enter IT topic">
+
+            <button onclick="addTask(this)">Add</button>
+
+            <ul class="task-list">
+                <li>HTML Forms <button onclick="deleteTask(this)">Delete</button></li>
+                <li>CSS Flexbox <button onclick="deleteTask(this)">Delete</button></li>
+                <li>CSS Grid <button onclick="deleteTask(this)">Delete</button></li>
+                <li>DOM Manipulation <button onclick="deleteTask(this)">Delete</button></li>
+                <li>Responsive Design <button onclick="deleteTask(this)">Delete</button></li>
+            </ul>
+
         </div>
+    </div>
 
-        <div class="subject-card">
-            🗄️
-            <h4>DBMS</h4>
-            <button style="background-color: mediumvioletred;">click</button>
+
+    
+    <div class="subject-card">
+        <h4>🗄️ DBMS</h4>
+
+        <button class="subject-btn" onclick="showTasks(this)">Click</button>
+
+        <div class="task-area" style="display:none;">
+
+            <input type="text" placeholder="Search DBMS..."
+                   oninput="searchTasks(this)">
+
+            <input type="text" placeholder="Enter DBMS topic">
+
+            <button onclick="addTask(this)">Add</button>
+
+            <ul class="task-list">
+                <li>Primary Key <button onclick="deleteTask(this)">Delete</button></li>
+                <li>Foreign Key <button onclick="deleteTask(this)">Delete</button></li>
+                <li>SQL Queries <button onclick="deleteTask(this)">Delete</button></li>
+                <li>Constraints <button onclick="deleteTask(this)">Delete</button></li>
+                <li>JDBC Connectivity <button onclick="deleteTask(this)">Delete</button></li>
+            </ul>
+
         </div>
-
     </div>
 
 </div>
-
-  </div>
 </div>
-    </div>
-    </center>
-    </center>
-
-
-    </div>
+</center>
+</center>
+    
      
    
     <script src="app.js"></script>
